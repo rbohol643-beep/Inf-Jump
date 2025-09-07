@@ -1,0 +1,6 @@
+local InfiniteJumplEnable = true
+game:GetService("UserInputService").JumpRequest
+ if InfiniteJumplEnable then
+        game:GetService"Player".LocalPlayer.Character
+   end
+end)
